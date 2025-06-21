@@ -1,9 +1,24 @@
+:root {
+  --primary-color: #dbd3ad;
+  --secondary-color: #002400;
+  --olive: #273b09;
+  ---light-green: #58641d;
+  --background-co: #ffffff;
+}
+
 body {
-  background: #dbd3ad;
+  background: var(--background-co);
+}
+
+a {
+  color: var(--primary-color);
 }
 
 img {
-  background: #dbd3ad;
+  background: var(--background-co);
+  padding: 20px 20px 20px 20px;
+
+  border-radius: 10px;
 }
 
 .App-header {

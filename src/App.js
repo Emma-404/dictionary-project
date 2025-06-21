@@ -1,4 +1,4 @@
-import logo from "./logosmall.jpg";
+import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -10,10 +10,20 @@ function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          Code with 🩶 by Emma-404 and is open-source
+          Code with 🩶 by{" "}
+          <a href="https://github.com/Emma-404" target="_blank">
+            Emma-404
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Emma-404/dictionary-project"
+            target="_blank"
+          >
+            open-source
+          </a>
         </footer>
       </div>
     </div>
