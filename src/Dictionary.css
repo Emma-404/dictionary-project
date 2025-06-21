@@ -2,11 +2,21 @@
   background-color: white;
 }
 
+.Dictionary h1 {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+.Dictionary h2 {
+  color: var(--lightgreen);
+}
+
 .Dictionary section {
   background: var(--primary-color);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  color: var(--secondary-color);
   margin: 20px auto;
 }
 

@@ -1,9 +1,9 @@
 :root {
   --primary-color: #dbd3ad;
-  --secondary-color: #002400;
-  --olive: #273b09;
-  ---light-green: #58641d;
-  --background-co: #ffffff;
+  --secondary-color: #273b09;
+  --olive: #58641d;
+  --lightgreen: #869524;
+  --backgroundco: #ffffff;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--lightgreen);
 }
 
 img {

@@ -1,10 +1,21 @@
-.Phoneticc a {
-  border: 1px solid var(---light-green);
+.Phonetic {
+  margin-bottom: 20px;
+}
+
+.Phonetic a {
+  border: 1px solid var(--lightgreen);
   text-decoration: none;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+  height: 60px;
+  margin-right: 10px;
 }
 
 .Phonetic a:hover {
-  background-color: white;
+  background-color: var(--olive);
+}
+
+.Phonetic .text {
+  font-weight: bold;
 }
