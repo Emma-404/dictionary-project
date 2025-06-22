@@ -21,6 +21,11 @@ img {
   border-radius: 10px;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App-header {
   margin: 30px 0;
 }
