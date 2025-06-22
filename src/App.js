@@ -14,13 +14,18 @@ export default function App() {
         </main>
         <footer className="App-footer">
           Coded with 🩶 by{" "}
-          <a href="https://github.com/Emma-404" target="_blank">
+          <a
+            href="https://github.com/Emma-404"
+            target="_blank"
+            rel="noreferrer"
+          >
             Emma-404
           </a>{" "}
           and is{" "}
           <a
             href="https://github.com/Emma-404/dictionary-project"
             target="_blank"
+            rel="noreferrer"
           >
             open-source
           </a>
